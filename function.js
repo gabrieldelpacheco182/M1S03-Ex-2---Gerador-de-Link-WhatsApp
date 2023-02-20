@@ -1,13 +1,13 @@
 /* let numero = document.getElementById("numero").value;
 let texto = document.getElementById("texto").value; */
 
-function gerarLink(){
+function gerarLink () {
 let numero = document.getElementById("numero").value;
 let texto = document.getElementById("texto").value;
-let link = `api.whatsapp.com/send?phone=${numero}&text=${texto}`
-console.log(link);
+let link = `https://wa.me/send?phone=${numero}&text=${texto}`
 
-document.getElementById('link').innerHTML = `<a href="${link}">Link gerado para enviar whatsapp</a>`
-}
+/*innerHTML pegar tag chama atrasves do id (''), e substituir por um nova tag `<a>`*/
+document.getElementById('urlFinal').innerHTML = `<a href="${link}" target="_blank">Link gerado para enviar whatsapp</a>`
+};
 
 

@@ -7,11 +7,21 @@
     <title>Document</title>
 </head>
 <body>
-    <input type="number" id="numero" placeholder="Digite aqui o seu número de Whtasapp">
-    <input type="text" id="texto" placeholder="Digite aqui a mensagem que deseja enviar.">
-    <button onclick="gerarLink()">Gerar link</button>
-    <div id="link"></div>
-    <a href=""></a>
+    <input
+      type="text"
+      id="numero"
+      placeholder="Digite aqui o seu número de Whtasapp"
+      style="width: 300px"
+    />
+    <input
+    type="text"
+    id="texto"
+    placeholder="Digite aqui a mensagem que deseja enviar."
+    style="width: 300px"
+  />
+  <button id="link" onclick="gerarLink()"
+  >Gerar link</button>
+  <p id="urlFinal"></p>
     <script src="function.js"></script>
 </body>
 </html>
