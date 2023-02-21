@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 500px;
+}
+
+div {
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+div,h2 {
+    text-align: center;
+}
+
+input {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+button {
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 5px;
+  text-align: center;
+}
+
+a{
+    text-decoration: none;
+
+}
+    
+a:hover {
+    transition: 0.5s;
+    text-decoration: underline;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+
+}

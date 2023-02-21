@@ -1,27 +1,22 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <input
-      type="text"
-      id="numero"
-      placeholder="Digite aqui o seu número de Whtasapp"
-      style="width: 300px"
-    />
-    <input
-    type="text"
-    id="texto"
-    placeholder="Digite aqui a mensagem que deseja enviar."
-    style="width: 300px"
-  />
-  <button id="link" onclick="gerarLink()"
-  >Gerar link</button>
-  <p id="urlFinal"></p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="/imagens/favicon.webp" type="image/x-icon">
+    <title>Gerador de link de whatsapp</title>
+  </head>
+  <body>
+    <div>
+    <h2>Gerar um link para abrir o whatsapp e mandar mensagem</h2>
+    <input type="text" id="numero" placeholder="Digite aqui o seu número de Whtasapp" style="width: 300px"/>
+    <img src="imagens/whatsapp.png" alt="simbolo do whatsapp" width="30">
+    <input type="text" id="texto"  placeholder="Digite aqui a mensagem que deseja enviar." style="width: 300px"/>📃<br>
+    <button id="link" onclick="gerarLink()">Gerar link</button>
+    🔗<p id="urlFinal"></p>
+  </div>
     <script src="function.js"></script>
-</body>
+  </body>
 </html>
